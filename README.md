@@ -14,3 +14,15 @@ The objective of having these two separate datasets is to compare the performanc
 Therefore, moving forward, there is no need to use VGG16 or an imbalanced class dataset for the MRI scan images.
 
 - VGG16 trained on a balanced class MRI dataset:![image](https://github.com/user-attachments/assets/e57fcd00-df9b-4cea-b399-b5e65e63f57e)
+
+The links to the models:
+1. [Balanced_dataset_VIT_CT](https://huggingface.co/GRAD04/Balanced_dataset_VIT_CT)
+2. [Balanced_dataset_VGG16_CT](https://huggingface.co/GRAD04/Balanced_dataset_VGG16_CT)
+3. [Imbalanced_Dataset_VIT_CT](https://huggingface.co/GRAD04/Imbalanced_Dataset_VIT_CT)
+4. [Imbalanced_Dataset_VGG16_CT](https://huggingface.co/GRAD04/Imbalanced_Dataset_VGG16_CT)
+5. [Balanced_Dataset_VIT_MRI](https://huggingface.co/GRAD04/Balanced_Dataset_VIT_MRI)
+
+The links to the datasets:
+1. [Balanced_CT_Scan](https://huggingface.co/datasets/GRAD04/Balanced_CT_Scan)
+2. [Imbalanced_CT_Scan](https://huggingface.co/datasets/GRAD04/Imbalanced_CT_Scan)
+3. [Balanced_MRI_Scan](https://huggingface.co/datasets/GRAD04/Balanced_MRI_Scan)

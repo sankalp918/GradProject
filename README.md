@@ -100,9 +100,10 @@ All trained models are available on Hugging Face Hub:
 | **VGG16** | Imbalanced | **93.0%** | [Imbalanced_Dataset_VGG16_CT](https://huggingface.co/GRAD04/Imbalanced_Dataset_VGG16_CT) |
 
 ### MRI Scan Models
-| Model | Dataset | Accuracy | Repository |
-|-------|---------|----------|------------|
+| Model | Dataset | Accuracy  | Repository |
+|-------|---------|-----------|------------|
 | **ViT** | Balanced | **99.92%** | [Balanced_Dataset_VIT_MRI](https://huggingface.co/GRAD04/Balanced_Dataset_VIT_MRI) |
+| **VGG16** | Balanced | **97.0%** | [Balanced_Dataset_VGG16_MRI](https://huggingface.co/GRAD04/Balanced_MRI_VGG16) |
 
 ### Fusion Models
 The project also includes advanced fusion models that combine CT and MRI modalities:
@@ -156,8 +157,8 @@ mri_model = ViTForImageClassification.from_pretrained(
 ### Performance Visualizations
 
 - ViT trained on an imbalanced class CT dataset:![image](https://github.com/user-attachments/assets/482587f7-5a28-4ad9-ae33-ebfba7500d4d)
-- ViT trained on a balanced class CT dataset:![image](https://github.com/user-attachments/assets/b6c1bbe6-79c2-4181-a8c7-33c6381d3945)
-- VGG16 trained on a balanced class MRI dataset:![image](https://github.com/user-attachments/assets/e57fcd00-df9b-4cea-b399-b5e65e63f57e)
+- VIT trained on a balanced class CT dataset:![image](https://github.com/user-attachments/assets/b6c1bbe6-79c2-4181-a8c7-33c6381d3945)
+- VIT trained on a balanced class MRI dataset:![image](https://github.com/user-attachments/assets/e57fcd00-df9b-4cea-b399-b5e65e63f57e)
 
 ### Key Findings
 - **ViT consistently outperforms VGG16** across all datasets
